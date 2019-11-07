@@ -1,10 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 html {
-	font-family: sans-serif;
-	}
-
+    font-family: Montserrat, sans-serif;
+    color: orangered;
+}
+p {
+    color: white;
+    max-width: 400px;
+}
 body {
-	width: 50%;
-	max-width: 800px;
-	min-width: 480px;
-	margin: 0 auto;
-	}
+    width: 20%;
+    min-width: 480px;
+    padding-top: 40vh;
+    margin: 0 auto;
+    background-color: #202020;
+    
+}
+
+input[type=text] {
+    background-color: white;
+    padding: 10px;
+    font-size: 21px;
+    font-family: Montserrat;
+    color: #202020;
+}
+
+.button {
+    background-color: orangered;
+    color: white;
+    font-size: 20px;
+    padding: 13px 20px;
+    text-decoration: none;
+    font-family: Montserrat;
+    cursor: pointer;
+    border: 1px;
+    
+}
